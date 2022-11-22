@@ -14,7 +14,7 @@ app.use("/users", require("./routes/users"));
 //     });
 // });
 
-const PORT =process.env.port|| 5000;
+const PORT =process.env.port|| 0000;
 const start= async()=>{
     try {
         await connectDB(process.env.MONGO_URI)
